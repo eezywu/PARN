@@ -1,0 +1,19 @@
+dataset_root: "datas/miniImagenet"
+IMAGE_SIZE: 84
+
+display_freq: 200
+val_freq: 2000
+n_episode_each_epoch: 2000
+test_episode: 600
+
+n_way: 5
+n_shot: 5
+n_query_train: 10
+n_query_test: 15
+feature_dim: 64
+
+gpu: 0
+num_workers: 3
+lr: 0.001
+optimizer: "Adam"
+weight_decay: 0 

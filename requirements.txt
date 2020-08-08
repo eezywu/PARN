@@ -1,0 +1,8 @@
+scipy==1.5.0
+opencv_python==4.3.0.36
+tqdm==4.47.0
+colorama==0.4.3
+numpy==1.18.5
+easydict==1.9
+Pillow==7.2.0
+PyYAML==5.3.1
