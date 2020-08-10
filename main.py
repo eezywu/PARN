@@ -29,7 +29,7 @@ def main():
     config.num_workers = args.num_workers
 
     model = PARN(config)
-    logger_name = config.metric_type
+    logger_name = "PARN"
     logger, logfile_name = utils.create_logger(logger_name)
     model.set_logger(logger, logfile_name)
     model.logger.info(config)
