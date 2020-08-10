@@ -2,10 +2,10 @@
 The pytorch implementation of Position-Aware Relation Networks (PARN), which is proposed in [Position-Aware Relation Networks for Few-Shot Learning](https://arxiv.org/abs/1909.04332).
 
 ## Usage
-- Deformable Convolutional Networks
+- Build environments of Deformable Convolutional Networks (DCN)
     - Download the [DCN code](https://github.com/CharlesShang/DCNv2), and follow the guideline to build environments of DCN. If you fail to complie the above code, you can try [this code](https://github.com/jinfagang/DCNv2_latest).
+- Download the [Mini-Imagenet](https://drive.google.com/file/d/1_i3CjUGWDwobZ9jTjTfZZZ0mHIO8fpWj/view) dataset, and put it in the `datas/miniImagenet` folder.
 - Run `pip install -r requirements.txt`
-- Download the Mini-Imagenet dataset, and put it in the `datas/miniImagenet` folder.
 - Run `python main.py`
 
 ## Citation
